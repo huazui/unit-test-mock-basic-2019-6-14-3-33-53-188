@@ -13,7 +13,7 @@ public class Purchase {
         String out = "";
 
         for (Item item : items) {
-            out += item.getName() + "\t" + item.getPrice() + "\n";
+            out += item.getName() + " " + item.getPrice() + "\n";
         }
 
         return out;

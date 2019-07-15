@@ -2,7 +2,8 @@ package cashregister;
 
 class Printer {
 
-    public void print(String printThis) {
-        throw new UnsupportedOperationException("Not Implemented");
+    public void print(String printThis)
+    {
+        System.out.print(printThis);
     }
 }
